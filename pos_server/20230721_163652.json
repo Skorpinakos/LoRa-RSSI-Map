@@ -1,0 +1,76 @@
+{
+    "deduplicationId": "0c4fe3a7-0e8c-46b0-8268-41ea66ed5ffc",
+    "time": "2023-07-21T13:36:52.326741316+00:00",
+    "deviceInfo": {
+        "tenantId": "063a0ecb-e8c2-4a13-975a-93d791e8d40c",
+        "tenantName": "Smart Campus",
+        "applicationId": "9be10a72-026f-4e3b-8eac-4a74d0beecb8",
+        "applicationName": "Asset tracking",
+        "deviceProfileId": "d4482b99-ec7f-437a-8aec-e1f07a75f8be",
+        "deviceProfileName": "Dragino LoRa/GPS Shield",
+        "deviceName": "dragino-lora-gps:1",
+        "devEui": "34454e4c10893e6e",
+        "tags": {}
+    },
+    "devAddr": "260111d1",
+    "adr": true,
+    "dr": 5,
+    "fCnt": 194,
+    "fPort": 1,
+    "confirmed": false,
+    "data": "rtcFIFMDNSwyMS43ODg4AAAAAA==",
+    "object": {
+        "location": {
+            "longitude": 21.7888,
+            "latitude": 38.2894
+        }
+    },
+    "rxInfo": [
+        {
+            "gatewayId": "1dee1a0843acf826",
+            "uplinkId": 1494,
+            "rssi": -79,
+            "snr": 7.8,
+            "channel": 2,
+            "rfChain": 1,
+            "location": {
+                "latitude": 38.288395556071336,
+                "longitude": 21.788930292281066
+            },
+            "context": "a1amsw==",
+            "metadata": {
+                "region_config_id": "eu868",
+                "region_common_name": "EU868"
+            },
+            "crcStatus": "CRC_OK"
+        },
+        {
+            "gatewayId": "1dee04170f93c058",
+            "uplinkId": 62468,
+            "rssi": -97,
+            "snr": -6.2,
+            "channel": 2,
+            "rfChain": 1,
+            "location": {
+                "latitude": 38.288403977154466,
+                "longitude": 21.788731921156614
+            },
+            "context": "aw8+Ew==",
+            "metadata": {
+                "region_common_name": "EU868",
+                "region_config_id": "eu868"
+            },
+            "crcStatus": "CRC_OK"
+        }
+    ],
+    "txInfo": {
+        "frequency": 868500000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "spreadingFactor": 7,
+                "codeRate": "CR_4_5"
+            }
+        }
+    }
+}
