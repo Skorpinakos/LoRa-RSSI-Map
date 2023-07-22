@@ -27,7 +27,7 @@ class JSONHandler(BaseHTTPRequestHandler):
             response = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
             self.wfile.write(response)
     def save_json_to_file(self, data):
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S_%f')
         filename = f"{timestamp}.json"
 
         with open(filename, 'w') as file:
