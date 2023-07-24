@@ -1,0 +1,83 @@
+{
+    "deduplicationId": "2087a583-c88a-4f71-a893-0bbdeccf834a",
+    "time": "2023-07-22T09:30:42.375647668+00:00",
+    "deviceInfo": {
+        "tenantId": "063a0ecb-e8c2-4a13-975a-93d791e8d40c",
+        "tenantName": "Smart Campus",
+        "applicationId": "9be10a72-026f-4e3b-8eac-4a74d0beecb8",
+        "applicationName": "Asset tracking",
+        "deviceProfileId": "82ff747e-1de8-4c38-8a8a-9319f3468732",
+        "deviceProfileName": "Digital Matter Oyster3",
+        "deviceName": "digital-matter-oyster3:1",
+        "devEui": "70b3d570500134ae",
+        "tags": {
+            "apiKey": "4jggokgpesnvfb2uv1s40d73ov",
+            "deviceId": "digital-matter-oyster3:1"
+        }
+    },
+    "devAddr": "002f2c62",
+    "adr": false,
+    "dr": 2,
+    "fCnt": 460,
+    "fPort": 1,
+    "confirmed": false,
+    "data": "913SFoKw/Az4AdY=",
+    "object": {
+        "type": "position",
+        "fixFailed": false,
+        "latitudeDeg": 38.2885367,
+        "batV": 5.35,
+        "longitudeDeg": 21.788685,
+        "speedKmph": 1.0,
+        "inactivityAlarm": null,
+        "headingDeg": 348.75,
+        "batCritical": null,
+        "inTrip": false
+    },
+    "rxInfo": [
+        {
+            "gatewayId": "1dee1a0843acf826",
+            "uplinkId": 6435,
+            "rssi": -101,
+            "snr": 10.8,
+            "channel": 4,
+            "location": {
+                "latitude": 38.288395556071336,
+                "longitude": 21.788930292281066
+            },
+            "context": "GNFPZA==",
+            "metadata": {
+                "region_common_name": "EU868",
+                "region_config_id": "eu868"
+            },
+            "crcStatus": "CRC_OK"
+        },
+        {
+            "gatewayId": "1dee04170f93c058",
+            "uplinkId": 32770,
+            "rssi": -79,
+            "snr": 10.5,
+            "channel": 4,
+            "location": {
+                "latitude": 38.288403977154466,
+                "longitude": 21.788731921156614
+            },
+            "context": "GIpsBA==",
+            "metadata": {
+                "region_config_id": "eu868",
+                "region_common_name": "EU868"
+            },
+            "crcStatus": "CRC_OK"
+        }
+    ],
+    "txInfo": {
+        "frequency": 867300000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "spreadingFactor": 10,
+                "codeRate": "CR_4_5"
+            }
+        }
+    }
+}

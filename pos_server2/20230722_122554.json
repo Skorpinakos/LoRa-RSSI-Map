@@ -1,0 +1,81 @@
+{
+    "deduplicationId": "49b6b311-88a9-4e1c-9a6d-d79073f2d102",
+    "time": "2023-07-22T09:25:54.906885692+00:00",
+    "deviceInfo": {
+        "tenantId": "063a0ecb-e8c2-4a13-975a-93d791e8d40c",
+        "tenantName": "Smart Campus",
+        "applicationId": "9be10a72-026f-4e3b-8eac-4a74d0beecb8",
+        "applicationName": "Asset tracking",
+        "deviceProfileId": "a265a16f-5a2d-4c16-929f-90955c8dcdc1",
+        "deviceProfileName": "Digital Matter Guppy",
+        "deviceName": "digital-matter-guppy:1",
+        "devEui": "70b3d57050009d4b",
+        "tags": {
+            "apiKey": "4jggokgpesnvfb2uv1s40d73ov",
+            "deviceId": "digital-matter-guppy:1"
+        }
+    },
+    "devAddr": "01b439ba",
+    "adr": true,
+    "dr": 0,
+    "fCnt": 0,
+    "fPort": 1,
+    "confirmed": false,
+    "data": "ppo=",
+    "object": {
+        "xyz": null,
+        "temp": 37.0,
+        "type": "status",
+        "inclinationDeg": null,
+        "azimuthDeg": null,
+        "manDown": null,
+        "inTrip": false,
+        "batV": 3.162
+    },
+    "rxInfo": [
+        {
+            "gatewayId": "1dee1a0843acf826",
+            "uplinkId": 44313,
+            "rssi": -96,
+            "snr": 9.8,
+            "channel": 6,
+            "location": {
+                "latitude": 38.288395556071336,
+                "longitude": 21.788930292281066
+            },
+            "context": "B67CzA==",
+            "metadata": {
+                "region_common_name": "EU868",
+                "region_config_id": "eu868"
+            },
+            "crcStatus": "CRC_OK"
+        },
+        {
+            "gatewayId": "1dee04170f93c058",
+            "uplinkId": 24764,
+            "rssi": -81,
+            "snr": 10.0,
+            "channel": 6,
+            "location": {
+                "latitude": 38.288403977154466,
+                "longitude": 21.788731921156614
+            },
+            "context": "B2fexA==",
+            "metadata": {
+                "region_common_name": "EU868",
+                "region_config_id": "eu868"
+            },
+            "crcStatus": "CRC_OK"
+        }
+    ],
+    "txInfo": {
+        "frequency": 867700000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "spreadingFactor": 12,
+                "codeRate": "CR_4_5"
+            }
+        }
+    }
+}

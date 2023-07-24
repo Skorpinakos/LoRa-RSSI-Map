@@ -1,0 +1,19 @@
+{
+    "deduplicationId": "9f3c633c-10d5-4809-a6d1-6d2a55b37bd8",
+    "time": "2023-07-22T09:25:40.157128996+00:00",
+    "deviceInfo": {
+        "tenantId": "063a0ecb-e8c2-4a13-975a-93d791e8d40c",
+        "tenantName": "Smart Campus",
+        "applicationId": "9be10a72-026f-4e3b-8eac-4a74d0beecb8",
+        "applicationName": "Asset tracking",
+        "deviceProfileId": "a265a16f-5a2d-4c16-929f-90955c8dcdc1",
+        "deviceProfileName": "Digital Matter Guppy",
+        "deviceName": "digital-matter-guppy:1",
+        "devEui": "70b3d57050009d4b",
+        "tags": {
+            "apiKey": "4jggokgpesnvfb2uv1s40d73ov",
+            "deviceId": "digital-matter-guppy:1"
+        }
+    },
+    "devAddr": "01b439ba"
+}

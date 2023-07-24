@@ -1,0 +1,58 @@
+{
+    "deduplicationId": "3b3ece5f-4871-45dc-98ca-3952595425ee",
+    "time": "2023-07-24T11:33:43.253046976+00:00",
+    "deviceInfo": {
+        "tenantId": "063a0ecb-e8c2-4a13-975a-93d791e8d40c",
+        "tenantName": "Smart Campus",
+        "applicationId": "9be10a72-026f-4e3b-8eac-4a74d0beecb8",
+        "applicationName": "Asset tracking",
+        "deviceProfileId": "d4482b99-ec7f-437a-8aec-e1f07a75f8be",
+        "deviceProfileName": "Dragino LoRa/GPS Shield",
+        "deviceName": "dragino-lora-gps:1",
+        "devEui": "34454e4c10893e6e",
+        "tags": {}
+    },
+    "devAddr": "260111d1",
+    "adr": true,
+    "dr": 5,
+    "fCnt": 320,
+    "fPort": 1,
+    "confirmed": false,
+    "data": "jNcFN1MDMSwyMS43OTExAAAAAA==",
+    "object": {
+        "location": {
+            "longitude": 21.7911,
+            "latitude": 38.286
+        }
+    },
+    "rxInfo": [
+        {
+            "gatewayId": "1dee1a0843acf826",
+            "uplinkId": 34204,
+            "rssi": -95,
+            "snr": 7.5,
+            "channel": 2,
+            "rfChain": 1,
+            "location": {
+                "latitude": 38.288395556071336,
+                "longitude": 21.788930292281066
+            },
+            "context": "oTPXaw==",
+            "metadata": {
+                "region_config_id": "eu868",
+                "region_common_name": "EU868"
+            },
+            "crcStatus": "CRC_OK"
+        }
+    ],
+    "txInfo": {
+        "frequency": 868500000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "spreadingFactor": 7,
+                "codeRate": "CR_4_5"
+            }
+        }
+    }
+}

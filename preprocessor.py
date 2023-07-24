@@ -47,14 +47,21 @@ def is_word_present_in_json(file_path, word):
         return False
 
 
-directory_path = "pos_server/" 
+directory_path = "pos_server2/" 
 json_files_list = get_json_files(directory_path)
 filtered_list=filter_dragino(json_files_list)
 points=[]
 for entry in filtered_list:
-    points.append(Event(entry))
+    with open(entry, 'r') as json_file:
+        data = json.load(json_file)
+        if str(data["object"]["location"]["latitude"])!='-677.7216':
+            points.append(Event(entry))
+            print(len(points))
 #print(points[0].max_rssi)
 points.sort(key=lambda x : x.time )
+#points=points[0:170]
+with open('log.csv','w',encoding='utf-8') as file:
+    file.write("")
 with open('log.csv','a',encoding='utf-8') as file:
     for point in points:
         file.write(str(point.lat)+","+str(point.lon)+","+str(point.max_rssi/-1)+'\n')
@@ -105,7 +112,7 @@ P = np.array([X.flatten(), Y.flatten() ]).transpose()
 #plt.show()
 
 from scipy.interpolate import griddata
-Z_cubic = griddata(Pi, Zi, P, method = "cubic").reshape([N, N])
+Z_cubic = griddata(Pi, Zi, P, method = "linear").reshape([N, N])
 plt.contourf(X, Y, Z_cubic, 100, cmap = mpl.cm.jet)
 plt.colorbar()
 #plt.contour(X, Y, Z_cubic, 20, colors = "k")

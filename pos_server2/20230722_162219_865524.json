@@ -1,0 +1,88 @@
+{
+    "deduplicationId": "33d7f18a-0459-4e30-9511-676018ce3162",
+    "time": "2023-07-22T13:22:19.849331729+00:00",
+    "deviceInfo": {
+        "tenantId": "063a0ecb-e8c2-4a13-975a-93d791e8d40c",
+        "tenantName": "Smart Campus",
+        "applicationId": "9be10a72-026f-4e3b-8eac-4a74d0beecb8",
+        "applicationName": "Asset tracking",
+        "deviceProfileId": "82ff747e-1de8-4c38-8a8a-9319f3468732",
+        "deviceProfileName": "Digital Matter Oyster3",
+        "deviceName": "digital-matter-oyster3:1",
+        "devEui": "70b3d570500134ae",
+        "tags": {
+            "apiKey": "4jggokgpesnvfb2uv1s40d73ov",
+            "deviceId": "digital-matter-oyster3:1"
+        }
+    },
+    "devAddr": "002f2c62",
+    "adr": false,
+    "dr": 2,
+    "fCnt": 462,
+    "fPort": 31,
+    "confirmed": false,
+    "data": "Nwc6OgQACUAhjDM=",
+    "object": {
+        "percentSleepDis": 18.75,
+        "percentGnssSucc": 18.75,
+        "batCritical": false,
+        "percentGnssFail": 43.75,
+        "tripCount": 32.0,
+        "wakeupsPerTrip": 7.0,
+        "uptimeWeeks": 9.0,
+        "batLow": false,
+        "percentOther": 12.5,
+        "initialBatV": 5.356,
+        "mWhUsed": 800.0,
+        "ttff": 55.0,
+        "type": "stats v3",
+        "percentLora": 6.25,
+        "currentBatV": 5.356
+    },
+    "rxInfo": [
+        {
+            "gatewayId": "1dee04170f93c058",
+            "uplinkId": 25943,
+            "rssi": -81,
+            "snr": 9.8,
+            "channel": 6,
+            "location": {
+                "latitude": 38.288403977154466,
+                "longitude": 21.788731921156614
+            },
+            "context": "VOUEjA==",
+            "metadata": {
+                "region_config_id": "eu868",
+                "region_common_name": "EU868"
+            },
+            "crcStatus": "CRC_OK"
+        },
+        {
+            "gatewayId": "1dee1a0843acf826",
+            "uplinkId": 53399,
+            "rssi": -102,
+            "snr": 9.5,
+            "channel": 6,
+            "location": {
+                "latitude": 38.288395556071336,
+                "longitude": 21.788930292281066
+            },
+            "context": "VSvIJA==",
+            "metadata": {
+                "region_config_id": "eu868",
+                "region_common_name": "EU868"
+            },
+            "crcStatus": "CRC_OK"
+        }
+    ],
+    "txInfo": {
+        "frequency": 867700000,
+        "modulation": {
+            "lora": {
+                "bandwidth": 125000,
+                "spreadingFactor": 10,
+                "codeRate": "CR_4_5"
+            }
+        }
+    }
+}
