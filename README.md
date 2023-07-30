@@ -8,6 +8,8 @@
 
 
 ### Gather the points through a chirpstack intergration and a python http server.
+![download (5)](https://github.com/Skorpinakos/LoRa-RSSI-Map/assets/82767099/92324101-0ffd-4bc2-bb7c-83c0be2b68d2)
+
 
 ### Then collect each 3D point (lat,lon,RSSI) :
 ![2D_Interpolation_4_0](https://github.com/Skorpinakos/LoRa-RSSI-Map/assets/82767099/0d0a2d03-4a35-47c2-bf5f-9d6e9da2f812)
@@ -15,7 +17,8 @@
 
 
 ### Extrude a non overlapping 2D graph :
-![2D_Interpolation_4_0](https://github.com/Skorpinakos/LoRa-RSSI-Map/assets/82767099/9836c76e-e197-4d12-bcec-10ce9f8a533c)
+![2D_Interpolation_6_0](https://github.com/Skorpinakos/LoRa-RSSI-Map/assets/82767099/7f51564e-b134-4911-b29f-80875a1ee37e)
+
 
 
 
