@@ -47,7 +47,7 @@ def is_word_present_in_json(file_path, word):
         return False
 
 
-directory_path = "pos_server2/" 
+directory_path = "HTTPpy/" 
 json_files_list = get_json_files(directory_path)
 filtered_list=filter_dragino(json_files_list)
 points=[]
