@@ -22,7 +22,7 @@
 
 
 
-### Use 2D linear interpolation to fill empty space :
+### Use 2D interpolation to fill empty space :
 ![2D_Interpolation_15_0](https://github.com/Skorpinakos/LoRa-RSSI-Map/assets/82767099/c8bcac6b-1b59-43c7-a29d-520be3d3aee2)
 
 
