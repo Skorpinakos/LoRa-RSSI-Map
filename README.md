@@ -22,14 +22,8 @@
 
 
 
-### Use 2D interpolation to fill empty space :
+### Use 2D polynomial interpolation to fill empty space :
 ![2D_Interpolation_15_0](https://github.com/Skorpinakos/LoRa-RSSI-Map/assets/82767099/c8bcac6b-1b59-43c7-a29d-520be3d3aee2)
-
-
-## Then overlap semi transparent heatmap (with 500+ points) on the actual map :
-![V2](https://github.com/Skorpinakos/LoRa-RSSI-Map/assets/82767099/a2c9f650-d7e4-454e-8688-671c3ec06e20)
-
-
 
 ### Early version with just ~160 points :
 ![end_result_with_bar](https://github.com/Skorpinakos/LoRa-RSSI-Map/assets/82767099/a2155bd1-b144-4f35-b484-8ec6b7bfd306)
